@@ -1,0 +1,29 @@
+{
+  "name": "cell-mastering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive 3D biology lab: control a cell with your bare hands (webcam hand tracking + three.js)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node scripts/fetch-assets.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.1.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.4"
+  }
+}

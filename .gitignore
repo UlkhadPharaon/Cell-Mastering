@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.DS_Store
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+.vscode/*
+!.vscode/extensions.json
+coverage/
+public/mediapipe-wasm/
+*.log
+logs/

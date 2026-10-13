@@ -1,0 +1,268 @@
+[
+  {
+    "id": "membrane",
+    "name": { "en": "Cell membrane", "fr": "Membrane plasmique" },
+    "function": {
+      "en": "Selective barrier that controls what enters and leaves the cell, and hosts receptors, channels and pumps.",
+      "fr": "Barrière sélective qui contrôle les entrées et sorties de la cellule et porte les récepteurs, canaux et pompes."
+    },
+    "facts": [
+      { "en": "A phospholipid bilayer ~7–8 nm thick with embedded proteins (fluid mosaic model).", "fr": "Bicouche phospholipidique de ~7–8 nm avec protéines intégrées (modèle de la mosaïque fluide)." },
+      { "en": "It is the structure that makes osmosis possible: water crosses it, most solutes cannot.", "fr": "C'est la structure qui rend l'osmose possible : l'eau la traverse, la plupart des solutés non." }
+    ],
+    "size": { "en": "7–8 nm thick", "fr": "7–8 nm d'épaisseur" },
+    "analogy": { "en": "A smart border checkpoint that lets some travellers pass and turns others away.", "fr": "Un poste-frontière intelligent qui laisse passer certains voyageurs et en refoule d'autres." },
+    "color": 66055,
+    "translucent": true,
+    "explodeDir": { "x": 0, "y": 0, "z": 0 }
+  },
+  {
+    "id": "cytoplasm",
+    "name": { "en": "Cytoplasm", "fr": "Cytoplasme" },
+    "function": {
+      "en": "Gel-like medium filling the cell where organelles are suspended and most metabolism happens.",
+      "fr": "Milieu gélatineux remplissant la cellule, où baignent les organelles et se déroule une grande part du métabolisme."
+    },
+    "facts": [
+      { "en": "About 80% water, plus salts, proteins and sugars — the cytosol is its liquid part.", "fr": "Environ 80% d'eau, plus des sels, protéines et sucres — le cytosol est sa partie liquide." },
+      { "en": "Glycolysis, the first step of glucose breakdown, runs here.", "fr": "La glycolyse, première étape de dégradation du glucose, s'y déroule." }
+    ],
+    "size": { "en": "fills the whole cell interior", "fr": "remplit tout l'intérieur de la cellule" },
+    "analogy": { "en": "The jello the organelles float in, like fruit in a jelly dessert.", "fr": "La gelée dans laquelle flottent les organelles, comme des fruits dans un dessert." },
+    "color": 16764102,
+    "translucent": true,
+    "explodeDir": { "x": 0, "y": 0, "z": 0 }
+  },
+  {
+    "id": "nucleus",
+    "name": { "en": "Nucleus", "fr": "Noyau" },
+    "function": {
+      "en": "Stores the cell's DNA and controls gene expression — which proteins are made, when and how much.",
+      "fr": "Contient l'ADN de la cellule et contrôle l'expression des gènes — quelles protéines sont produites, quand et en quelle quantité."
+    },
+    "facts": [
+      { "en": "Surrounded by a double membrane, the nuclear envelope, pierced by pores.", "fr": "Entouré d'une double membrane, l'enveloppe nucléaire, percée de pores." },
+      { "en": "Human DNA stretched out would be ~2 m long, packed into a ~6 µm nucleus.", "fr": "L'ADN humain étiré mesurerait ~2 m, compacté dans un noyau de ~6 µm." }
+    ],
+    "size": { "en": "≈ 6 µm diameter", "fr": "≈ 6 µm de diamètre" },
+    "analogy": { "en": "The library + control room of the cell: reference copy of the master plans, locked.", "fr": "La bibliothèque et la salle de contrôle : la copie de référence du plan maître, sous clé." },
+    "color": 5358617,
+    "explodeDir": { "x": 0, "y": 0.15, "z": 0 }
+  },
+  {
+    "id": "nucleolus",
+    "name": { "en": "Nucleolus", "fr": "Nucléole" },
+    "function": {
+      "en": "Dense region inside the nucleus that transcribes rRNA and assembles ribosome subunits.",
+      "fr": "Région dense du noyau qui transcrit l'ARN ribosomique et assemble les sous-unités des ribosomes."
+    },
+    "facts": [
+      { "en": "Not membrane-bound — it forms around the rRNA gene clusters.", "fr": "Non délimité par une membrane — il se forme autour des gènes de l'ARNr." },
+      { "en": "A busy nucleolus is a sign of high protein production.", "fr": "Un nucléole volumineux signe une forte production de protéines." }
+    ],
+    "size": { "en": "≈ 1–3 µm", "fr": "≈ 1–3 µm" },
+    "analogy": { "en": "A factory within the library that prints the machines (ribosomes) used outside.", "fr": "Une usine dans la bibliothèque qui fabrique les machines (ribosomes) utilisées à l'extérieur." },
+    "color": 2263747,
+    "explodeDir": { "x": 0, "y": 0.3, "z": 0 }
+  },
+  {
+    "id": "rough-er",
+    "name": { "en": "Rough endoplasmic reticulum", "fr": "Réticulum endoplasmique rugueux" },
+    "function": {
+      "en": "Membrane network studded with ribosomes; folds and modifies proteins destined for export or membranes.",
+      "fr": "Réseau membranaire parsemé de ribosomes ; replie et modifie les protéines destinées à l'export ou aux membranes."
+    },
+    "facts": [
+      { "en": "Continuous with the nuclear envelope.", "fr": "Continu avec l'enveloppe nucléaire." },
+      { "en": "\"Rough\" = ribosomes on its cytosolic face.", "fr": "« Rugueux » = ribosomes sur sa face cytosolique." }
+    ],
+    "size": { "en": "sheets spanning several µm", "fr": "feuillets de plusieurs µm" },
+    "analogy": { "en": "The packaging department with an assembly line bolted to its walls.", "fr": "Le service emballage avec une chaîne de montage fixée à ses murs." },
+    "color": 11383877,
+    "explodeDir": { "x": -0.7, "y": 0.3, "z": 0.3 }
+  },
+  {
+    "id": "smooth-er",
+    "name": { "en": "Smooth endoplasmic reticulum", "fr": "Réticulum endoplasmique lisse" },
+    "function": {
+      "en": "Makes lipids and steroids, detoxifies drugs, and stores calcium ions.",
+      "fr": "Fabrique lipides et stéroïdes, détoxifie certaines molécules et stocke le calcium."
+    },
+    "facts": [
+      { "en": "No ribosomes — hence \"smooth\".", "fr": "Sans ribosomes — d'où « lisse »." },
+      { "en": "Abundant in liver cells (detox) and muscle cells (the sarcoplasmic reticulum stores Ca²⁺).", "fr": "Abondant dans le foie (détox) et le muscle (le réticulum sarcoplasmique stocke le Ca²⁺)." }
+    ],
+    "size": { "en": "tubules ~0.1 µm wide", "fr": "tubules d'environ 0,1 µm" },
+    "analogy": { "en": "The chemical plant + hazardous-waste unit of the cell.", "fr": "L'usine chimique et l'unité de traitement des déchets de la cellule." },
+    "color": 15447134,
+    "explodeDir": { "x": 0.7, "y": 0.2, "z": -0.3 }
+  },
+  {
+    "id": "golgi",
+    "name": { "en": "Golgi apparatus", "fr": "Appareil de Golgi" },
+    "function": {
+      "en": "Sorts, modifies and packages proteins and lipids into vesicles for delivery or secretion.",
+      "fr": "Trie, modifie et conditionne protéines et lipides dans des vésicules pour livraison ou sécrétion."
+    },
+    "facts": [
+      { "en": "Stacked flattened cisternae: cis face receives, trans face ships out.", "fr": "Empilement de citernes aplaties : face cis reçoit, face trans expédie." },
+      { "en": "Adds sugar tags (glycosylation) that act as shipping addresses.", "fr": "Ajoute des étiquettes de sucres (glycosylation) qui servent d'adresses de livraison." }
+    ],
+    "size": { "en": "≈ 1 µm stacks", "fr": "≈ 1 µm d'empilement" },
+    "analogy": { "en": "The post office: receives parcels, relabels them, dispatches them.", "fr": "La poste : reçoit les colis, les re-étiquette et les expédie." },
+    "color": 15175378,
+    "explodeDir": { "x": 0.5, "y": -0.5, "z": 0.4 }
+  },
+  {
+    "id": "mitochondrion",
+    "name": { "en": "Mitochondrion", "fr": "Mitochondrie" },
+    "function": {
+      "en": "Produces ATP by cellular respiration using oxygen and nutrients — the cell's power plant.",
+      "fr": "Produit l'ATP par respiration cellulaire à partir d'oxygène et de nutriments — la centrale énergétique."
+    },
+    "facts": [
+      { "en": "Inner membrane folded into cristae to multiply surface area.", "fr": "Membrane interne repliée en crêtes pour multiplier la surface." },
+      { "en": "Has its own circular DNA and likely evolved from an engulfed bacterium.", "fr": "Possède son propre ADN circulaire ; issue probable d'une bactérie engloutie." },
+      { "en": "A typical liver cell contains 1000–2000 mitochondria.", "fr": "Une cellule de foie typique contient 1000 à 2000 mitochondries." }
+    ],
+    "size": { "en": "0.5–1 µm wide, 1–10 µm long", "fr": "0,5–1 µm de large, 1–10 µm de long" },
+    "analogy": { "en": "A power station burning fuel; more of them where energy demand is high (muscle).", "fr": "Une centrale qui brûle du carburant ; davantage là où la demande est forte (muscle)." },
+    "color": 14371730,
+    "explodeDir": { "x": -0.4, "y": -0.4, "z": 0.6 }
+  },
+  {
+    "id": "lysosome",
+    "name": { "en": "Lysosome", "fr": "Lysosome" },
+    "function": {
+      "en": "Acidic vesicle full of digestive enzymes that breaks down waste, debris and engulfed material.",
+      "fr": "Vésicule acide remplie d'enzymes digestives qui dégrade déchets, débris et matériaux engloutis."
+    },
+    "facts": [
+      { "en": "Internal pH ≈ 5, maintained by proton pumps in its membrane.", "fr": "pH interne ≈ 5, maintenu par des pompes à protons dans sa membrane." },
+      { "en": "Autophagy: lysosomes recycle the cell's own worn-out parts.", "fr": "Autophagie : les lysosomes recyclent les pièces usées de la cellule." }
+    ],
+    "size": { "en": "≈ 0.1–1 µm", "fr": "≈ 0,1–1 µm" },
+    "analogy": { "en": "The recycling centre + acid shower: broken stuff goes in, raw materials come out.", "fr": "Le centre de recyclage sous douche acide : le usé entre, la matière première ressort." },
+    "color": 16082567,
+    "explodeDir": { "x": 0.3, "y": 0.7, "z": -0.4 }
+  },
+  {
+    "id": "ribosome",
+    "name": { "en": "Ribosome", "fr": "Ribosome" },
+    "function": {
+      "en": "Reads mRNA and assembles amino acids into polypeptide chains — protein synthesis.",
+      "fr": "Lit l'ARN messager et assemble les acides aminés en chaînes polypeptidiques — synthèse protéique."
+    },
+    "facts": [
+      { "en": "Two subunits, 40S + 60S in eukaryotes.", "fr": "Deux sous-unités, 40S + 60S chez les eucaryotes." },
+      { "en": "Free in cytosol or docked on the rough ER.", "fr": "Libres dans le cytosol ou accrochés au réticule rugueux." },
+      { "en": "A human cell can contain millions of them.", "fr": "Une cellule humaine peut en contenir des millions." }
+    ],
+    "size": { "en": "≈ 20–30 nm", "fr": "≈ 20–30 nm" },
+    "analogy": { "en": "3D printers following an mRNA print job.", "fr": "Des imprimantes 3D qui exécutent le bon de fabrication porté par l'ARNm." },
+    "color": 3456767,
+    "explodeDir": { "x": -0.2, "y": 0.5, "z": -0.6 }
+  },
+  {
+    "id": "centriole",
+    "name": { "en": "Centriole", "fr": "Centriole" },
+    "function": {
+      "en": "Cylinder of microtubules organising the centrosome; forms spindle poles during division and cilia/flagella bases.",
+      "fr": "Cylindre de microtubules organisant le centrosome ; forme les pôles du fuseau lors de la division et les bases des cils."
+    },
+    "facts": [
+      { "en": "A pair (centrosome) sits at right angles to each other.", "fr": "Une paire (le centrosome) disposée à angle droit." },
+      { "en": "Built from 9 triplets of microtubules.", "fr": "Construit à partir de 9 triplets de microtubules." }
+    ],
+    "size": { "en": "≈ 0.2 µm long", "fr": "≈ 0,2 µm de long" },
+    "analogy": { "en": "The scaffolding crew that sets up the crane rails before cell division.", "fr": "L'équipe d'échafaudage qui pose les rails de la grue avant la division cellulaire." },
+    "color": 8421504,
+    "explodeDir": { "x": 0.2, "y": -0.8, "z": 0.3 }
+  },
+  {
+    "id": "vacuole",
+    "name": { "en": "Vacuole", "fr": "Vacuole" },
+    "function": {
+      "en": "Membrane sac storing water, ions, nutrients and waste; helps regulate turgor and pH.",
+      "fr": "Poche membranaire stockant eau, ions, nutriments et déchets ; régule la turgescence et le pH."
+    },
+    "facts": [
+      { "en": "In animal cells small and temporary; in plant cells one central vacuole can take 30–80% of volume.", "fr": "Petites et temporaires chez l'animal ; chez la plante, le vacuole central occupe 30 à 80% du volume." },
+      { "en": "Bounded by the tonoplast membrane.", "fr": "Délimité par la membrane tonoplaste." }
+    ],
+    "size": { "en": "animal ≈ 0.5 µm; plant central vacuole up to tens of µm", "fr": "animal ≈ 0,5 µm ; vacuole central végétal jusqu'à plusieurs dizaines de µm" },
+    "analogy": { "en": "A water tower + storage locker: holds stock and keeps pressure.", "fr": "Un château d'eau et un débarras : stocke l'eau et maintient la pression." },
+    "color": 6684671,
+    "translucent": true,
+    "explodeDir": { "x": -0.5, "y": -0.2, "z": -0.7 }
+  },
+  {
+    "id": "cell-wall",
+    "name": { "en": "Cell wall", "fr": "Paroi pectocellulosique" },
+    "function": {
+      "en": "Rigid outer layer of cellulose that gives shape, mechanical strength and prevents bursting under turgor.",
+      "fr": "Couche externe rigide de cellulose qui donne forme, résistance mécanique et empêche l'éclatement sous turgescence."
+    },
+    "facts": [
+      { "en": "Present in plant, fungal and most bacterial cells — never in animal cells.", "fr": "Présente chez les plantes, champignons et la plupart des bactéries — jamais chez les animaux." },
+      { "en": "Fully permeable to water and solutes, unlike the membrane.", "fr": "Entièrement perméable à l'eau et aux solutés, contrairement à la membrane." }
+    ],
+    "size": { "en": "≈ 0.1–5 µm thick", "fr": "≈ 0,1–5 µm d'épaisseur" },
+    "analogy": { "en": "The wooden crate around the balloon: it cannot expand beyond the crate.", "fr": "La caisse en bois autour du ballon : le ballon ne peut pas grossir au-delà de la caisse." },
+    "color": 10182274,
+    "translucent": true,
+    "explodeDir": { "x": 0, "y": 0, "z": 0 }
+  },
+  {
+    "id": "chloroplast",
+    "name": { "en": "Chloroplast", "fr": "Chloroplaste" },
+    "function": {
+      "en": "Captures light energy and converts CO2 + water into sugars (photosynthesis) using chlorophyll.",
+      "fr": "Capte l'énergie lumineuse et convertit CO2 + eau en sucres (photosynthèse) grâce à la chlorophylle."
+    },
+    "facts": [
+      { "en": "Thylakoid stacks (grana) hold the light reactions; the stroma hosts the Calvin cycle.", "fr": "Les piles de thylakoïdes (grana) portent les réactions lumineuses ; le stroma porte le cycle de Calvin." },
+      { "en": "Owns its own DNA — like mitochondria, of endosymbiotic origin.", "fr": "Possède son propre ADN — origine endosymbiotique, comme les mitochondries." },
+      { "en": "Reflects green light, which is why leaves look green.", "fr": "Réfléchit la lumière verte — d'où la couleur des feuilles." }
+    ],
+    "size": { "en": "≈ 2–5 µm long", "fr": "≈ 2–5 µm de long" },
+    "analogy": { "en": "A solar power plant with its own maintenance crew.", "fr": "Une centrale solaire avec son équipe de maintenance autonome." },
+    "color": 21745,
+    "explodeDir": { "x": 0.6, "y": 0.4, "z": 0.5 }
+  },
+  {
+    "id": "central-vacuole",
+    "name": { "en": "Central vacuole", "fr": "Vacuole central" },
+    "function": {
+      "en": "Huge water-filled sac driving turgor pressure that keeps the plant rigid; also stores ions, pigments and waste.",
+      "fr": "Immense poche d'eau qui génère la pression de turgescence maintenant la plante rigide ; stocke aussi ions, pigments et déchets."
+    },
+    "facts": [
+      { "en": "Can occupy up to 80–90% of a mature plant cell's volume.", "fr": "Peut occuper jusqu'à 80–90% du volume d'une cellule végétale mûre." },
+      { "en": "When it loses water, the plant wilts.", "fr": "Quand il perd de l'eau, la plante fane." },
+      { "en": "Its tonoplast controls what crosses into storage.", "fr": "Son tonoplaste contrôle ce qui entre en réserve." }
+    ],
+    "size": { "en": "tens of µm", "fr": "plusieurs dizaines de µm" },
+    "analogy": { "en": "The inflated inner tube that makes a balloon rig: let it deflate and everything sags.", "fr": "La chambre à air gonflée qui fait la rigidité : si elle se dégonfle, tout s'affaisse." },
+    "color": 10485718,
+    "translucent": true,
+    "explodeDir": { "x": 0, "y": 0.2, "z": 0 }
+  },
+  {
+    "id": "hemoglobin",
+    "name": { "en": "Haemoglobin", "fr": "Hémoglobine" },
+    "function": {
+      "en": "Iron protein inside red blood cells that carries O2 from lungs to tissues and returns CO2.",
+      "fr": "Protéine à fer du globule rouge qui transporte l'O2 des poumons aux tissus et rapporte le CO2."
+    },
+    "facts": [
+      { "en": "Each RBC packs ~270 million haemoglobin molecules.", "fr": "Chaque globule rouge contient ~270 millions de molécules d'hémoglobine." },
+      { "en": "Four subunits, each with a haem group — Fe binds one O2.", "fr": "Quatre sous-unités, chacune avec un groupe hème — le fer fixe un O2." },
+      { "en": "Gives blood its red colour.", "fr": "Donne au sang sa couleur rouge." }
+    ],
+    "size": { "en": "≈ 5.5 nm", "fr": "≈ 5,5 nm" },
+    "analogy": { "en": "Fleet of oxygen taxis shuttling between the lungs and the tissues.", "fr": "Une flotte de taxis à oxygène entre poumons et tissus." },
+    "color": 12289976,
+    "explodeDir": { "x": 0, "y": 0, "z": 0.3 }
+  }
+]
