@@ -1,0 +1,80 @@
+[
+  {
+    "id": "animal",
+    "name": { "en": "Animal cell", "fr": "Cellule animale" },
+    "kind": "animal",
+    "radius": 1.0,
+    "viewDistance": 1.0,
+    "osmosis": {
+      "internalC": 0.30,
+      "hasWall": false,
+      "wallVolumeFactor": 1.0,
+      "wallK": 0,
+      "lyseVolumeFactor": 1.45,
+      "crenationFactor": 0.86,
+      "Lp": 0.0018
+    },
+    "parts": [
+      { "organelleId": "membrane", "count": 1, "placement": "shell" },
+      { "organelleId": "cytoplasm", "count": 1, "placement": "nucleus-center" },
+      { "organelleId": "nucleus", "count": 1, "placement": "nucleus-center" },
+      { "organelleId": "nucleolus", "count": 1, "placement": "nucleus-center" },
+      { "organelleId": "rough-er", "count": 2, "placement": "cluster", "radiusRange": [0.34, 0.5], "baseSize": 0.22 },
+      { "organelleId": "smooth-er", "count": 2, "placement": "cluster", "radiusRange": [0.4, 0.58], "baseSize": 0.2 },
+      { "organelleId": "golgi", "count": 1, "placement": "cluster", "radiusRange": [0.42, 0.5], "baseSize": 0.22 },
+      { "organelleId": "mitochondrion", "count": 7, "placement": "scatter", "radiusRange": [0.35, 0.78], "baseSize": 0.13, "sizeJitter": 0.35 },
+      { "organelleId": "lysosome", "count": 4, "placement": "scatter", "radiusRange": [0.4, 0.75], "baseSize": 0.07, "sizeJitter": 0.3 },
+      { "organelleId": "ribosome", "count": 120, "placement": "scatter", "radiusRange": [0.25, 0.82], "baseSize": 0.016 },
+      { "organelleId": "centriole", "count": 2, "placement": "cluster", "radiusRange": [0.18, 0.24], "baseSize": 0.05 },
+      { "organelleId": "vacuole", "count": 2, "placement": "scatter", "radiusRange": [0.45, 0.7], "baseSize": 0.09, "sizeJitter": 0.4 }
+    ]
+  },
+  {
+    "id": "plant",
+    "name": { "en": "Plant cell", "fr": "Cellule végétale" },
+    "kind": "plant",
+    "radius": 1.15,
+    "viewDistance": 1.1,
+    "osmosis": {
+      "internalC": 0.35,
+      "hasWall": true,
+      "wallVolumeFactor": 1.18,
+      "wallK": 0.02,
+      "lyseVolumeFactor": 99,
+      "crenationFactor": 0.8,
+      "Lp": 0.0012
+    },
+    "parts": [
+      { "organelleId": "cell-wall", "count": 1, "placement": "shell" },
+      { "organelleId": "membrane", "count": 1, "placement": "nucleus-center" },
+      { "organelleId": "cytoplasm", "count": 1, "placement": "nucleus-center" },
+      { "organelleId": "central-vacuole", "count": 1, "placement": "nucleus-center" },
+      { "organelleId": "nucleus", "count": 1, "placement": "cluster", "radiusRange": [0.55, 0.6], "baseSize": 0.2 },
+      { "organelleId": "nucleolus", "count": 1, "placement": "cluster", "radiusRange": [0.55, 0.6], "baseSize": 0.07 },
+      { "organelleId": "chloroplast", "count": 8, "placement": "scatter", "radiusRange": [0.45, 0.8], "baseSize": 0.12, "sizeJitter": 0.3 },
+      { "organelleId": "mitochondrion", "count": 5, "placement": "scatter", "radiusRange": [0.4, 0.75], "baseSize": 0.11, "sizeJitter": 0.3 },
+      { "organelleId": "golgi", "count": 1, "placement": "cluster", "radiusRange": [0.45, 0.55], "baseSize": 0.18 },
+      { "organelleId": "ribosome", "count": 90, "placement": "scatter", "radiusRange": [0.3, 0.8], "baseSize": 0.015 }
+    ]
+  },
+  {
+    "id": "rbc",
+    "name": { "en": "Red blood cell", "fr": "Globule rouge" },
+    "kind": "rbc",
+    "radius": 0.9,
+    "viewDistance": 0.85,
+    "osmosis": {
+      "internalC": 0.308,
+      "hasWall": false,
+      "wallVolumeFactor": 1.0,
+      "wallK": 0,
+      "lyseVolumeFactor": 1.6,
+      "crenationFactor": 0.9,
+      "Lp": 0.0022
+    },
+    "parts": [
+      { "organelleId": "membrane", "count": 1, "placement": "shell" },
+      { "organelleId": "hemoglobin", "count": 260, "placement": "scatter", "radiusRange": [0.0, 0.75], "baseSize": 0.02 }
+    ]
+  }
+]

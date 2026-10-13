@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   base: './',
@@ -15,15 +15,12 @@ export default defineConfig({
     chunkSizeWarningLimit: 1200,
     rollupOptions: {
       output: {
-        manualChunks: {
-          three: ['three'],
-          mediapipe: ['@mediapipe/tasks-vision']
+        manualChunks(id: string) {
+          if (id.includes('node_modules/three')) return 'three';
+          if (id.includes('node_modules/@mediapipe')) return 'mediapipe';
+          return undefined;
         }
       }
     }
-  },
-  test: {
-    environment: 'node',
-    include: ['tests/unit/**/*.test.ts']
   }
 });
